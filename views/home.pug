@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+      script(src='../static/index.js')
+
+block style 
+    style 
+           include ../static/css/main.css  
+
+block content
+    
+    section#introsection 
+         div Welcome to Rise and Shine Dance Academy
+         div.small Eat Dance sleep repeat
+    section#missionsection
+           h2 Our Mission 
+           div.card
+               h3 Dance Perfection
+               div#card-box
+                     div.card-img
+                        img(src='../static/img/mission1.jpg')
+                     div.card-content   
+                        | This is the best Dance academy in the Universe.   
+           div.card
+                h3 Dance the way You like 
+                div#card-box
+                     div.card-img
+                       img(src='../static/img/logo1.webp')
+                     div.card-content   
+                        | This is the best Dance academy in the Universe.
+           div.card
+                h3 Expert Teaching 
+                div#card-box
+                     div.card-img
+                          img(src='../static/img/mission.jpg')
+                     div.card-content   
+                         | This is the best Dance academy in the Universe.   
+    section#sponsorsection 
+            h2 Our Sponsors 
+            div#sponsor-content
+                div#thanks 
+                  |Thank You 2023 Dance Sponsors!
+                div#support 
+                  | Your support helps us fulfill our mission!  We appreciate you.
+            div#sponsors
+               img(src="../static/img/sponsors-dance.jpg")               

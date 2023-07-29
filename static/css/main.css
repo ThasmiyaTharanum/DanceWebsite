@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Dancing+Script:wght@500&family=Kanit:wght@500&family=Lilita+One&family=Lumanosimo&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+
+
+
+#navbar{
+    background-color:  rgb(231, 98, 98);
+    font-family: 'Chela One', cursive;
+    font-size: 1.2rem;
+    
+  
+}
+#navbar ul{
+    display:flex;
+
+}
+#navbar li {
+    list-style: none;
+    padding:18px 12px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+}
+#navbar li a:hover{
+    text-decoration: underline;
+    color:black
+}
+#introsection{
+    height:230px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    flex-direction: column;
+    background:url('../img/sponsorbg.jpg') center center/cover no-repeat;
+    opacity: 0.89;
+}
+#introsection div.small{
+    font-size: 27px;
+    padding:12px;
+}
+#logo{
+    width: 93px;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+#logo img{
+        width:50px;
+        height:50px;
+        padding:4px;
+        border-radius: 16spx;
+    }
+#missionsection {
+   height:270px;
+    margin:auto;
+    width:67%;
+
+}
+#missionsection h2{
+    padding: 12px;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+
+}
+#missionsection h3{
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    margin: 8px;
+    text-shadow: 2px 2px 5px crimson;
+
+}
+.card{
+    border:2px solid black;
+    border-radius: 12px;
+    width:30%;
+    height:210px;
+    display: inline-block;
+    margin:0px 7px;
+    font-family: 'Dancing Script', cursive;
+    background-color:  rgb(225 160 160 / 28%);
+   
+}
+#card-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-img img {
+    width: 180px;
+    height: 100px;
+}
+.card-content{
+    font-size: 18px;
+    padding:10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#c30e31;
+}
+
+#sponsorsection h2{
+    font-family: 'Yeon Sung', cursive;
+    padding: 12px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+#sponsorsection{
+    
+    height:670px;
+    color: black;
+    background:url('../img/bg.jpg') no-repeat top/cover ;
+    opacity: 0.7;
+    
+}
+#sponsor-content{
+      
+      font-family: 'Courgette', cursive;
+      font-weight: bold;
+      color:white;
+}
+#thanks{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#support{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+#sponsors img{
+    width:1000px;
+    height:500px;
+    margin:auto;
+    display: block;
+    border-radius: 12px;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,20 @@
+doctype html 
+html
+  head
+    title Dance Website 
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+          div#logo
+             img(src='../static/img/logo.png')
+             | RSD
+          li #[a(href="/") Home]  
+          li #[a(href="/") Services]
+          li #[a(href="/") About] 
+          li #[a(href="/") Class info ]
+          li #[a(href="/contact") Contact Us]
+    block content
+    footer 
+          div  Copyright &copy; www.Rise-and-Shine.com All rights reserved!   
